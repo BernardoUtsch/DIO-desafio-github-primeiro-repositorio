@@ -10,3 +10,4 @@
 
 ###### Introdução ao Git e ao Github
 ###### Fundamentos Web com HTML e CSS
+###### Introdução ao HTML5 e CSS3 - Neste último ainda temos um arquivo com o site pessoal feito na aula prática, mas com algumas personalizações e comentários.
