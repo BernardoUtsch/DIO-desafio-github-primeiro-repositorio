@@ -144,3 +144,15 @@ Colocar uma lista de contatos, que já havia sido colocada, mas agora está em f
 
 
 
+### 3. CSS3
+
+Formatação de paginas. Linguagem de estilo = CSS
+
+Regras de estilo para elementos ou grupo de elementos.
+
+Formado por um seletor ou grupo de seletores. Dentre as chaves existem os seletores e colocamos as alterações de fonte e cor.
+
+ID x Classe = Seletores anteriores em html são seletores de tipos. No caso de html um ID é precedido por id, e uma classe é precedida por class:.
+
+No CSS um id é precedido por um "." e uma classe é precedida por um "#"
+
