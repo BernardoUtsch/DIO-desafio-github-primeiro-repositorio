@@ -16,3 +16,10 @@ HTML Snippets
 
 Live HTML Previewer
 
+
+
+Flex-direction: direção do conteúdo do "container"
+
+Flex wrap: sentido ordenado de exibição desse conteúdo
+
+Flex-flow: atalho para so comandos anteriores

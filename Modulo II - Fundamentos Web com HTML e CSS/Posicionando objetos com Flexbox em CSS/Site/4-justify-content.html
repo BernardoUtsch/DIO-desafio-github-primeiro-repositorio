@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify Content</title>
+    <style>
+        .container{
+            max-width: 400px;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 0;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            width: 100px;
+            height: 50px;
+            
+        }
+        .flex-start{
+            justify-content: flex-start;
+            flex-flow: row nowrap;
+        }
+        .flex-end{
+            justify-content: flex-end;
+            flex-flow: row wrap;
+        }
+        .flex-center{
+            justify-content: center;
+            flex-flow: row wrap;
+        }
+        .flex-space-between{
+            justify-content: space-between;
+            flex-flow: row wrap;
+        }
+        .flex-space-arround{
+            justify-content: space-around;
+            flex-flow: row wrap;
+        }
+        .flex-space-evenly{
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+        }
+        .flex-start-column{
+            justify-content: flex-start;
+            flex-flow: column wrap;
+        }
+        .flex-end-column{
+            justify-content: flex-end;
+            flex-flow: column wrap;
+        }
+        .flex-center-column{
+            justify-content: center;
+            flex-flow: column wrap;
+        }
+        .flex-space-between-column{
+            justify-content: space-between;
+            flex-flow: column wrap;
+        }
+        .flex-space-arround-column{
+            justify-content: space-around;
+            flex-flow: column wrap;
+        }
+        .flex-space-evenly-column{
+            justify-content: space-evenly;
+            flex-flow: column wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fundamentos - Justify Content</h1>
+    <h3>flex-start</h3>
+    <h4>Alinha o conteúdo no inicio do container</h4>
+    <h3>flex-end</h3>
+    <h4>Alinha o contaúdo no fim do container</h4>
+    <h3>center</h3>
+    <h4>Alinha o conteúdo ao centro do container</body>h4>
+    <h3>space-between</h3>
+    <h4>Alinha o conteúdo de acordo com o espaço entre eles</h4>
+    <h3>space-arround</h3>
+    <h4>Faz um trem doido</h4>
+    <p>Exemplo flex-start</p>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo flex-end</p>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo Center</p>
+    <section class="container flex-center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-between</p>
+    <section class="container flex-space-between">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-around</p>
+    <section class="container flex-space-arround">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-evenly</p>
+    <section class="container flex-space-evenly">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <section class="container flex-start-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo flex-end</p>
+    <section class="container flex-end-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo Center</p>
+    <section class="container flex-center-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-between</p>
+    <section class="container flex-space-between-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-around</p>
+    <section class="container flex-space-arround-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+    <p>Exemplo space-evenly</p>
+    <section class="container flex-space-evenly-column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">mais</div>
+        <div class="item">outro</div>
+    </section>
+</body>
+</html>
