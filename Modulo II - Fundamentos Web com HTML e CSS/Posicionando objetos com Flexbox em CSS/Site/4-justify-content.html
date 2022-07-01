@@ -48,30 +48,11 @@
             justify-content: space-evenly;
             flex-flow: row wrap;
         }
-        .flex-start-column{
-            justify-content: flex-start;
-            flex-flow: column wrap;
+        .column{
+            flex-direction: column;
+            min-height: 200px;
         }
-        .flex-end-column{
-            justify-content: flex-end;
-            flex-flow: column wrap;
-        }
-        .flex-center-column{
-            justify-content: center;
-            flex-flow: column wrap;
-        }
-        .flex-space-between-column{
-            justify-content: space-between;
-            flex-flow: column wrap;
-        }
-        .flex-space-arround-column{
-            justify-content: space-around;
-            flex-flow: column wrap;
-        }
-        .flex-space-evenly-column{
-            justify-content: space-evenly;
-            flex-flow: column wrap;
-        }
+        
     </style>
 </head>
 <body>
@@ -134,7 +115,7 @@
         <div class="item">mais</div>
         <div class="item">outro</div>
     </section>
-    <section class="container flex-start-column">
+    <section class="container flex-start column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
@@ -142,7 +123,7 @@
         <div class="item">outro</div>
     </section>
     <p>Exemplo flex-end</p>
-    <section class="container flex-end-column">
+    <section class="container flex-end column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
@@ -150,7 +131,7 @@
         <div class="item">outro</div>
     </section>
     <p>Exemplo Center</p>
-    <section class="container flex-center-column">
+    <section class="container flex-center column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
@@ -158,7 +139,7 @@
         <div class="item">outro</div>
     </section>
     <p>Exemplo space-between</p>
-    <section class="container flex-space-between-column">
+    <section class="container flex-space-between column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
@@ -166,7 +147,7 @@
         <div class="item">outro</div>
     </section>
     <p>Exemplo space-around</p>
-    <section class="container flex-space-arround-column">
+    <section class="container flex-space-arround column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
@@ -174,7 +155,7 @@
         <div class="item">outro</div>
     </section>
     <p>Exemplo space-evenly</p>
-    <section class="container flex-space-evenly-column">
+    <section class="container flex-space-evenly column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
