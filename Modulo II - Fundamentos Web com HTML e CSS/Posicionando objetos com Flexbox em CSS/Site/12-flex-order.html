@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Order</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+
+        }
+        .item{
+            flex: 1;
+            background-color: brown;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+        .o1{
+            order: 1;
+        }
+        .o2{
+            order: 2;
+        }
+        .o3{
+            order: 3;
+        }
+        .direction{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <h3>Order: 0</h3>
+    <div class="flex-container">
+        <dic class="item">1</dic>
+        <dic class="item">2</dic>
+        <dic class="item">3</dic>
+        <dic class="item">4</dic>
+        <dic class="item">4m</dic>
+        <dic class="item">4n</dic>
+    </div>
+    <h3>Order: diferentes</h3>
+    <div class="flex-container">
+        <dic class="item">1</dic>
+        <dic class="item">2</dic>
+        <dic class="item">3</dic>
+        <dic class="item o2">4</dic>
+        <dic class="item o3">4n</dic>
+        <dic class="item o1">4m</dic>
+    </div>
+    <h1>Column</h1>
+    <h3>Column Order: 0</h3>
+    <div class="flex-container direction">
+        <dic class="item">1</dic>
+        <dic class="item">2</dic>
+        <dic class="item">3</dic>
+        <dic class="item">4</dic>
+        <dic class="item">4m</dic>
+        <dic class="item">4n</dic>
+    </div>
+    <h3>Column Order: diferentes</h3>
+    <div class="flex-container direction">
+        <dic class="item">1</dic>
+        <dic class="item">2</dic>
+        <dic class="item">3</dic>
+        <dic class="item o2">4</dic>
+        <dic class="item o3">4n</dic>
+        <dic class="item o1">4m</dic>
+    </div>
+</body>
+</html>
