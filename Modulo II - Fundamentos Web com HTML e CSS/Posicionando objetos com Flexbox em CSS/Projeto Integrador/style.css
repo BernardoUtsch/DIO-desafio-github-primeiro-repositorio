@@ -22,13 +22,46 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
+    color: #fff;
 }
-.list-items{
-    color: #ffff;
-}
+
 header .list-items{
     display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
 }
+
+.list-items li a{
+    color: #fff;
+}
+
 header .menu{
     justify-content: space-between;
+}
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao .texto-apresentacao{
+    min-width: 200px;
+}
+.texto-apresentacao h1{
+    color: #122a57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.texto-apresentacao a{
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
