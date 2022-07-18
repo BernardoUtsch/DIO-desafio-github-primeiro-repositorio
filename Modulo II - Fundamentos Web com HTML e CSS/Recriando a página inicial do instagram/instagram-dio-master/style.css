@@ -74,6 +74,7 @@ body {
 
 .profile-photo img {
     height: 6rem;
+    width: 6rem;
 }
 
 .instagram-login {
@@ -114,8 +115,9 @@ body {
 }
 
 .app-download {
-    height: 3rem;
-    width: 10rem;
+    padding: 3px;
+    height: 4rem;
+    width: 15rem;
     background-size: cover;
 }
 
