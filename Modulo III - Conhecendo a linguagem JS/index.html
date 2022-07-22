@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css"/>
-    <script src="assets/js/teste.js"></script>
-    <title>teste</title>
+    <title>Contador</title>
 </head>
 <body>
-    <h1>Olá galere!</h1>
+    <div class="tela">
+    <h1>Contator</h1>
+    </div>
+    <div class="tela">
+    <p>Clique nos botões para alterar o Contador</p>
+    </div>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>
+    <script src="assets/js/teste.js"></script>
 </body>
 </html>
