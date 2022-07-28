@@ -26,3 +26,7 @@
 
 #### Modulo III
 
+###### Introdução, Operadoras e Sintaxe JS
+
+###### Sintaxe Básica JS
+
